@@ -1,5 +1,5 @@
 {
-  "max_iob": 6,
+  "max_iob": 0,
   "max_daily_safety_multiplier": 4,
   "current_basal_safety_multiplier": 4,
   "autosens_max": 1.2,
@@ -7,14 +7,14 @@
   "rewind_resets_autosens": false,
   "high_temptarget_raises_sensitivity": false,
   "low_temptarget_lowers_sensitivity": false,
-  "sensitivity_raises_target": false,
+  "sensitivity_raises_target": true,
   "resistance_lowers_target": false,
   "adv_target_adjustments": false,
-  "exercise_mode": true,
+  "exercise_mode": false,
   "half_basal_exercise_target": 160,
   "maxCOB": 120,
   "wide_bg_target_range": false,
-  "unsuspend_if_no_temp": true,
+  "unsuspend_if_no_temp": false,
   "bolussnooze_dia_divisor": 2,
   "min_5m_carbimpact": 8,
   "autotune_isf_adjustmentFraction": 1,
@@ -26,7 +26,7 @@
   "enableSMB_with_temptarget": true,
   "enableSMB_always": false,
   "enableSMB_after_carbs": false,
-  "allowSMB_with_high_temptarget": true,
+  "allowSMB_with_high_temptarget": false,
   "maxSMBBasalMinutes": 30,
   "curve": "rapid-acting",
   "useCustomPeakTime": false,
@@ -35,7 +35,7 @@
   "offline_hotspot": false,
   "dia": 4,
   "model": "754",
-  "current_basal": 0.6,
+  "current_basal": 0.475,
   "basalprofile": [
     {
       "i": 0,
@@ -96,7 +96,7 @@
     ],
     "first": 2
   },
-  "sens": 36,
+  "sens": 43.199999999999996,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -106,15 +106,15 @@
         "start": "00:00:00",
         "sensitivity": 43.199999999999996,
         "x": 0,
-        "offset": 0
+        "offset": 0,
+        "endOffset": 240
       },
       {
         "i": 8,
         "start": "04:00:00",
         "sensitivity": 36,
         "x": 1,
-        "offset": 240,
-        "endOffset": 300
+        "offset": 240
       },
       {
         "i": 10,
@@ -146,30 +146,24 @@
     "first": 1,
     "schedule": [
       {
-        "q": 0,
-        "start": "00:00:00",
-        "r": 50,
-        "ratio": 5,
-        "offset": 0,
         "i": 0,
+        "start": "00:00:00",
+        "offset": 0,
+        "ratio": 5,
         "x": 0
       },
       {
-        "q": 0,
-        "start": "06:00:00",
-        "r": 60,
-        "ratio": 6,
-        "offset": 360,
         "i": 12,
+        "start": "06:00:00",
+        "offset": 360,
+        "ratio": 6,
         "x": 1
       },
       {
-        "q": 0,
-        "start": "10:00:00",
-        "r": 50,
-        "ratio": 5,
-        "offset": 600,
         "i": 20,
+        "start": "10:00:00",
+        "offset": 600,
+        "ratio": 5,
         "x": 2
       }
     ]
