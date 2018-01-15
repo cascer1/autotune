@@ -32,10 +32,10 @@
   "useCustomPeakTime": false,
   "insulinPeakTime": 75,
   "carbsReqThreshold": 4,
-  "offline_hotspot": false,
+  "offline_hotspot": true,
   "dia": 4,
   "model": "754",
-  "current_basal": 0.475,
+  "current_basal": 0.6,
   "basalprofile": [
     {
       "i": 0,
@@ -96,7 +96,7 @@
     ],
     "first": 2
   },
-  "sens": 43.199999999999996,
+  "sens": 36,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -106,15 +106,15 @@
         "start": "00:00:00",
         "sensitivity": 43.199999999999996,
         "x": 0,
-        "offset": 0,
-        "endOffset": 240
+        "offset": 0
       },
       {
         "i": 8,
         "start": "04:00:00",
         "sensitivity": 36,
         "x": 1,
-        "offset": 240
+        "offset": 240,
+        "endOffset": 300
       },
       {
         "i": 10,
