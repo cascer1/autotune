@@ -35,7 +35,7 @@
   "offline_hotspot": false,
   "dia": 4,
   "model": "754",
-  "current_basal": 0.6,
+  "current_basal": 0.475,
   "basalprofile": [
     {
       "i": 0,
@@ -96,7 +96,7 @@
     ],
     "first": 2
   },
-  "sens": 36,
+  "sens": 43.199999999999996,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -106,15 +106,15 @@
         "start": "00:00:00",
         "sensitivity": 43.199999999999996,
         "x": 0,
-        "offset": 0
+        "offset": 0,
+        "endOffset": 240
       },
       {
         "i": 8,
         "start": "04:00:00",
         "sensitivity": 36,
         "x": 1,
-        "offset": 240,
-        "endOffset": 300
+        "offset": 240
       },
       {
         "i": 10,
