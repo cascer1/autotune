@@ -35,7 +35,7 @@
   "offline_hotspot": true,
   "dia": 4,
   "model": "754",
-  "current_basal": 0.6,
+  "current_basal": 0.475,
   "basalprofile": [
     {
       "i": 0,
@@ -106,7 +106,8 @@
         "start": "00:00:00",
         "sensitivity": 43.199999999999996,
         "x": 0,
-        "offset": 0
+        "offset": 0,
+        "endOffset": 240
       },
       {
         "i": 8,
@@ -134,8 +135,7 @@
         "start": "21:00:00",
         "sensitivity": 43.199999999999996,
         "x": 4,
-        "offset": 1260,
-        "endOffset": 1440
+        "offset": 1260
       }
     ],
     "first": 2
