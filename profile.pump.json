@@ -35,46 +35,106 @@
   "offline_hotspot": true,
   "dia": 4,
   "model": "754",
-  "current_basal": 0.6,
+  "current_basal": 0.675,
   "basalprofile": [
     {
       "i": 0,
       "start": "00:00:00",
-      "rate": 0.475,
+      "rate": 0.525,
       "minutes": 0
     },
     {
       "i": 1,
-      "start": "04:00:00",
-      "rate": 0.6,
-      "minutes": 240
+      "start": "01:00:00",
+      "rate": 0.55,
+      "minutes": 60
     },
     {
       "i": 2,
-      "start": "07:00:00",
-      "rate": 0.7,
-      "minutes": 420
+      "start": "04:00:00",
+      "rate": 0.675,
+      "minutes": 240
     },
     {
       "i": 3,
-      "start": "09:00:00",
-      "rate": 0.45,
-      "minutes": 540
+      "start": "05:00:00",
+      "rate": 0.7,
+      "minutes": 300
     },
     {
       "i": 4,
-      "start": "12:00:00",
-      "rate": 0.475,
-      "minutes": 720
+      "start": "06:00:00",
+      "rate": 0.65,
+      "minutes": 360
     },
     {
       "i": 5,
+      "start": "07:00:00",
+      "rate": 0.75,
+      "minutes": 420
+    },
+    {
+      "i": 6,
+      "start": "08:00:00",
+      "rate": 0.675,
+      "minutes": 480
+    },
+    {
+      "i": 7,
+      "start": "09:00:00",
+      "rate": 0.525,
+      "minutes": 540
+    },
+    {
+      "i": 8,
+      "start": "12:00:00",
+      "rate": 0.575,
+      "minutes": 720
+    },
+    {
+      "i": 9,
       "start": "17:00:00",
-      "rate": 0.6,
+      "rate": 0.7,
       "minutes": 1020
+    },
+    {
+      "i": 10,
+      "start": "18:00:00",
+      "rate": 0.65,
+      "minutes": 1080
+    },
+    {
+      "i": 11,
+      "start": "19:00:00",
+      "rate": 0.675,
+      "minutes": 1140
+    },
+    {
+      "i": 12,
+      "start": "20:00:00",
+      "rate": 0.625,
+      "minutes": 1200
+    },
+    {
+      "i": 13,
+      "start": "21:00:00",
+      "rate": 0.6,
+      "minutes": 1260
+    },
+    {
+      "i": 14,
+      "start": "22:00:00",
+      "rate": 0.55,
+      "minutes": 1320
+    },
+    {
+      "i": 15,
+      "start": "23:00:00",
+      "rate": 0.575,
+      "minutes": 1380
     }
   ],
-  "max_daily_basal": 0.7,
+  "max_daily_basal": 0.75,
   "max_basal": 4,
   "out_units": "mmol/L",
   "min_bg": 99,
@@ -104,7 +164,7 @@
       {
         "i": 0,
         "start": "00:00:00",
-        "sensitivity": 43.199999999999996,
+        "sensitivity": 50.4,
         "x": 0,
         "offset": 0
       },
