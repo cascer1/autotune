@@ -40,145 +40,145 @@
     {
       "i": 0,
       "start": "00:00:00",
-      "rate": 0.624,
+      "rate": 0.627,
       "minutes": 0
     },
     {
       "i": 1,
       "start": "01:00:00",
-      "rate": 0.66,
+      "rate": 0.656,
       "minutes": 60
     },
     {
       "i": 2,
       "start": "02:00:00",
-      "rate": 0.66,
+      "rate": 0.654,
       "minutes": 120
     },
     {
       "i": 3,
       "start": "03:00:00",
-      "rate": 0.66,
+      "rate": 0.654,
       "minutes": 180
     },
     {
       "i": 4,
       "start": "04:00:00",
-      "rate": 0.8,
+      "rate": 0.789,
       "minutes": 240
     },
     {
       "i": 5,
       "start": "05:00:00",
-      "rate": 0.835,
+      "rate": 0.832,
       "minutes": 300
     },
     {
       "i": 6,
       "start": "06:00:00",
-      "rate": 0.78,
+      "rate": 0.777,
       "minutes": 360
     },
     {
       "i": 7,
       "start": "07:00:00",
-      "rate": 0.777,
+      "rate": 0.794,
       "minutes": 420
     },
     {
       "i": 8,
       "start": "08:00:00",
-      "rate": 0.72,
+      "rate": 0.767,
       "minutes": 480
     },
     {
       "i": 9,
       "start": "09:00:00",
-      "rate": 0.647,
+      "rate": 0.63,
       "minutes": 540
     },
     {
       "i": 10,
       "start": "10:00:00",
-      "rate": 0.647,
+      "rate": 0.63,
       "minutes": 600
     },
     {
       "i": 11,
       "start": "11:00:00",
-      "rate": 0.647,
+      "rate": 0.63,
       "minutes": 660
     },
     {
       "i": 12,
       "start": "12:00:00",
-      "rate": 0.661,
+      "rate": 0.657,
       "minutes": 720
     },
     {
       "i": 13,
       "start": "13:00:00",
-      "rate": 0.673,
+      "rate": 0.667,
       "minutes": 780
     },
     {
       "i": 14,
       "start": "14:00:00",
-      "rate": 0.667,
+      "rate": 0.662,
       "minutes": 840
     },
     {
       "i": 15,
       "start": "15:00:00",
-      "rate": 0.667,
+      "rate": 0.662,
       "minutes": 900
     },
     {
       "i": 16,
       "start": "16:00:00",
-      "rate": 0.658,
+      "rate": 0.655,
       "minutes": 960
     },
     {
       "i": 17,
       "start": "17:00:00",
-      "rate": 0.649,
+      "rate": 0.648,
       "minutes": 1020
     },
     {
       "i": 18,
       "start": "18:00:00",
-      "rate": 0.651,
+      "rate": 0.649,
       "minutes": 1080
     },
     {
       "i": 19,
       "start": "19:00:00",
-      "rate": 0.65,
+      "rate": 0.649,
       "minutes": 1140
     },
     {
       "i": 20,
       "start": "20:00:00",
-      "rate": 0.668,
+      "rate": 0.663,
       "minutes": 1200
     },
     {
       "i": 21,
       "start": "21:00:00",
-      "rate": 0.673,
+      "rate": 0.667,
       "minutes": 1260
     },
     {
       "i": 22,
       "start": "22:00:00",
-      "rate": 0.647,
+      "rate": 0.646,
       "minutes": 1320
     },
     {
       "i": 23,
       "start": "23:00:00",
-      "rate": 0.656,
+      "rate": 0.653,
       "minutes": 1380
     }
   ],
@@ -204,7 +204,7 @@
     ],
     "first": 2
   },
-  "sens": 49.928,
+  "sens": 48.342,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -212,7 +212,7 @@
       {
         "i": 0,
         "start": "00:00:00",
-        "sensitivity": 49.928,
+        "sensitivity": 48.342,
         "x": 0,
         "offset": 0
       },
@@ -276,5 +276,5 @@
       }
     ]
   },
-  "csf": 10.087
+  "csf": 8.739
 }
