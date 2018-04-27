@@ -33,6 +33,8 @@
   "insulinPeakTime": 75,
   "carbsReqThreshold": 1,
   "offline_hotspot": false,
+  "noisyCGMTargetMultiplier": 1.3,
+  "suspend_zeros_iob": true,
   "dia": 4,
   "model": "554",
   "current_basal": 0.775,
