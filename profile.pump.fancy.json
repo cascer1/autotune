@@ -28,6 +28,7 @@
   "enableSMB_after_carbs": false,
   "allowSMB_with_high_temptarget": false,
   "maxSMBBasalMinutes": 30,
+  "maxUAMSMBBasalMinutes": 30,
   "curve": "rapid-acting",
   "useCustomPeakTime": false,
   "insulinPeakTime": 75,
