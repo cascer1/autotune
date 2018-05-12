@@ -22,7 +22,7 @@
   "remainingCarbsCap": 90,
   "enableUAM": true,
   "A52_risk_enable": false,
-  "enableSMB_with_COB": true,
+  "enableSMB_with_COB": false,
   "enableSMB_with_temptarget": true,
   "enableSMB_always": false,
   "enableSMB_after_carbs": false,
@@ -38,30 +38,30 @@
   "suspend_zeros_iob": true,
   "dia": 4,
   "model": "554",
-  "current_basal": 0.775,
+  "current_basal": 0.7,
   "basalprofile": [
     {
       "i": 0,
       "start": "00:00:00",
-      "rate": 0.55,
+      "rate": 0.6,
       "minutes": 0
     },
     {
       "i": 1,
       "start": "01:00:00",
-      "rate": 0.625,
+      "rate": 0.7,
       "minutes": 60
     },
     {
       "i": 2,
       "start": "02:00:00",
-      "rate": 0.625,
+      "rate": 0.7,
       "minutes": 120
     },
     {
       "i": 3,
       "start": "03:00:00",
-      "rate": 0.65,
+      "rate": 0.7,
       "minutes": 180
     },
     {
@@ -79,13 +79,13 @@
     {
       "i": 6,
       "start": "06:00:00",
-      "rate": 0.7,
+      "rate": 0.75,
       "minutes": 360
     },
     {
       "i": 7,
       "start": "07:00:00",
-      "rate": 0.725,
+      "rate": 0.75,
       "minutes": 420
     },
     {
@@ -207,7 +207,7 @@
     ],
     "first": 2
   },
-  "sens": 36,
+  "sens": 50.4,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -217,15 +217,15 @@
         "start": "00:00:00",
         "sensitivity": 50.4,
         "x": 0,
-        "offset": 0
+        "offset": 0,
+        "endOffset": 240
       },
       {
         "i": 8,
         "start": "04:00:00",
         "sensitivity": 36,
         "x": 1,
-        "offset": 240,
-        "endOffset": 300
+        "offset": 240
       },
       {
         "i": 10,
@@ -265,7 +265,7 @@
     ],
     "first": 2
   },
-  "carb_ratio": 6,
+  "carb_ratio": 5.5,
   "carb_ratios": {
     "units": "grams",
     "first": 1,
@@ -274,21 +274,21 @@
         "i": 0,
         "start": "00:00:00",
         "offset": 0,
-        "ratio": 6,
+        "ratio": 5.5,
         "x": 0
       },
       {
         "i": 12,
         "start": "06:00:00",
         "offset": 360,
-        "ratio": 7.5,
+        "ratio": 7,
         "x": 1
       },
       {
         "i": 20,
         "start": "10:00:00",
         "offset": 600,
-        "ratio": 6,
+        "ratio": 5.5,
         "x": 2
       }
     ]
