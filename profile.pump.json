@@ -22,7 +22,7 @@
   "remainingCarbsCap": 90,
   "enableUAM": true,
   "A52_risk_enable": false,
-  "enableSMB_with_COB": false,
+  "enableSMB_with_COB": true,
   "enableSMB_with_temptarget": true,
   "enableSMB_always": false,
   "enableSMB_after_carbs": false,
