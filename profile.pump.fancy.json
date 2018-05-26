@@ -38,7 +38,7 @@
   "suspend_zeros_iob": true,
   "dia": 5,
   "model": "554",
-  "current_basal": 0.7,
+  "current_basal": 0.85,
   "basalprofile": [
     {
       "i": 0,
@@ -93,7 +93,7 @@
     ],
     "first": 2
   },
-  "sens": 50.4,
+  "sens": 43.199999999999996,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -110,7 +110,8 @@
         "start": "04:00:00",
         "sensitivity": 43.199999999999996,
         "x": 1,
-        "offset": 240
+        "offset": 240,
+        "endOffset": 300
       },
       {
         "i": 10,
@@ -131,13 +132,12 @@
         "start": "21:00:00",
         "sensitivity": 50.4,
         "x": 4,
-        "offset": 1260,
-        "endOffset": 1440
+        "offset": 1260
       }
     ],
     "first": 2
   },
-  "carb_ratio": 6,
+  "carb_ratio": 5.5,
   "carb_ratios": {
     "units": "grams",
     "first": 1,
