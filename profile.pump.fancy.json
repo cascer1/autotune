@@ -38,7 +38,7 @@
   "suspend_zeros_iob": true,
   "dia": 5,
   "model": "554",
-  "current_basal": 0.8,
+  "current_basal": 0.85,
   "basalprofile": [
     {
       "i": 0,
