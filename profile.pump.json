@@ -38,7 +38,7 @@
   "suspend_zeros_iob": true,
   "dia": 5,
   "model": "554\n",
-  "current_basal": 0.7,
+  "current_basal": 0.65,
   "basalprofile": [
     {
       "i": 0,
@@ -87,7 +87,7 @@
     ],
     "first": 2
   },
-  "sens": 61.199999999999996,
+  "sens": 46.800000000000004,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -97,8 +97,7 @@
         "x": 0,
         "sensitivity": 61.199999999999996,
         "offset": 0,
-        "start": "00:00:00",
-        "endOffset": 240
+        "start": "00:00:00"
       },
       {
         "i": 8,
@@ -119,7 +118,8 @@
         "x": 3,
         "sensitivity": 46.800000000000004,
         "offset": 540,
-        "start": "09:00:00"
+        "start": "09:00:00",
+        "endOffset": 1440
       },
       {
         "i": 10,
