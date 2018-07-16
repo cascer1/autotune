@@ -1,6 +1,6 @@
 {
   "max_iob": 6,
-  "max_daily_safety_multiplier": 3,
+  "max_daily_safety_multiplier": 4,
   "current_basal_safety_multiplier": 4,
   "autosens_max": 1.2,
   "autosens_min": 0.7,
