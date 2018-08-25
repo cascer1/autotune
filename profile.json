@@ -9,127 +9,127 @@
       {
          "i": 0,
          "minutes": 0,
-         "rate": 0.601,
+         "rate": 0.589,
          "start": "00:00:00"
       },
       {
          "i": 1,
          "minutes": 60,
-         "rate": 0.623,
+         "rate": 0.607,
          "start": "01:00:00"
       },
       {
          "i": 2,
          "minutes": 120,
-         "rate": 0.713,
+         "rate": 0.698,
          "start": "02:00:00"
       },
       {
          "i": 3,
          "minutes": 180,
-         "rate": 0.75,
+         "rate": 0.743,
          "start": "03:00:00"
       },
       {
          "i": 4,
          "minutes": 240,
-         "rate": 0.813,
+         "rate": 0.816,
          "start": "04:00:00"
       },
       {
          "i": 5,
          "minutes": 300,
-         "rate": 0.766,
+         "rate": 0.769,
          "start": "05:00:00"
       },
       {
          "i": 6,
          "minutes": 360,
-         "rate": 0.751,
+         "rate": 0.761,
          "start": "06:00:00"
       },
       {
          "i": 7,
          "minutes": 420,
-         "rate": 0.725,
+         "rate": 0.728,
          "start": "07:00:00"
       },
       {
          "i": 8,
          "minutes": 480,
-         "rate": 0.721,
+         "rate": 0.711,
          "start": "08:00:00"
       },
       {
          "i": 9,
          "minutes": 540,
-         "rate": 0.702,
+         "rate": 0.696,
          "start": "09:00:00"
       },
       {
          "i": 10,
          "minutes": 600,
-         "rate": 0.697,
+         "rate": 0.692,
          "start": "10:00:00"
       },
       {
          "i": 11,
          "minutes": 660,
-         "rate": 0.697,
+         "rate": 0.692,
          "start": "11:00:00"
       },
       {
          "i": 12,
          "minutes": 720,
-         "rate": 0.696,
+         "rate": 0.691,
          "start": "12:00:00"
       },
       {
          "i": 13,
          "minutes": 780,
-         "rate": 0.691,
+         "rate": 0.687,
          "start": "13:00:00"
       },
       {
          "i": 14,
          "minutes": 840,
-         "rate": 0.691,
+         "rate": 0.687,
          "start": "14:00:00"
       },
       {
          "i": 15,
          "minutes": 900,
-         "rate": 0.691,
+         "rate": 0.687,
          "start": "15:00:00"
       },
       {
          "i": 16,
          "minutes": 960,
-         "rate": 0.691,
+         "rate": 0.687,
          "start": "16:00:00"
       },
       {
          "i": 17,
          "minutes": 1020,
-         "rate": 0.691,
+         "rate": 0.687,
          "start": "17:00:00"
       },
       {
          "i": 18,
          "minutes": 1080,
-         "rate": 0.692,
+         "rate": 0.688,
          "start": "18:00:00"
       },
       {
          "i": 19,
          "minutes": 1140,
-         "rate": 0.692,
+         "rate": 0.688,
          "start": "19:00:00"
       },
       {
          "i": 20,
          "minutes": 1200,
-         "rate": 0.69,
+         "rate": 0.686,
          "start": "20:00:00"
       },
       {
@@ -141,13 +141,13 @@
       {
          "i": 22,
          "minutes": 1320,
-         "rate": 0.634,
+         "rate": 0.641,
          "start": "22:00:00"
       },
       {
          "i": 23,
          "minutes": 1380,
-         "rate": 0.612,
+         "rate": 0.624,
          "start": "23:00:00"
       }
    ],
@@ -169,7 +169,7 @@
       "user_preferred_units": "mmol/L"
    },
    "bolussnooze_dia_divisor": 2,
-   "carb_ratio": 5.848,
+   "carb_ratio": 5.85,
    "carb_ratios": {
       "first": 1,
       "schedule": [
@@ -184,7 +184,7 @@
       "units": "grams"
    },
    "carbsReqThreshold": 1,
-   "csf": 9.827,
+   "csf": 10.632,
    "current_basal": 0.7,
    "current_basal_safety_multiplier": 4,
    "curve": "ultra-rapid",
@@ -205,7 +205,7 @@
             "endOffset": 240,
             "i": 0,
             "offset": 0,
-            "sensitivity": 65.48,
+            "sensitivity": 68.841,
             "start": "00:00:00",
             "x": 0
          },
@@ -260,7 +260,7 @@
    "remainingCarbsFraction": 1,
    "resistance_lowers_target": false,
    "rewind_resets_autosens": false,
-   "sens": 65.48,
+   "sens": 68.841,
    "sensitivity_raises_target": true,
    "suspend_zeros_iob": true,
    "unsuspend_if_no_temp": true,
