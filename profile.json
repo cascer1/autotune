@@ -10,145 +10,145 @@
       {
          "i": 0,
          "minutes": 0,
-         "rate": 0.516,
+         "rate": 0.529,
          "start": "00:00:00"
       },
       {
          "i": 1,
          "minutes": 60,
-         "rate": 0.613,
+         "rate": 0.576,
          "start": "01:00:00"
       },
       {
          "i": 2,
          "minutes": 120,
-         "rate": 0.574,
+         "rate": 0.503,
          "start": "02:00:00"
       },
       {
          "i": 3,
          "minutes": 180,
-         "rate": 0.628,
+         "rate": 0.544,
          "start": "03:00:00"
       },
       {
          "i": 4,
          "minutes": 240,
-         "rate": 0.643,
+         "rate": 0.588,
          "start": "04:00:00"
       },
       {
          "i": 5,
          "minutes": 300,
-         "rate": 0.624,
+         "rate": 0.611,
          "start": "05:00:00"
       },
       {
          "i": 6,
          "minutes": 360,
-         "rate": 0.65,
+         "rate": 0.644,
          "start": "06:00:00"
       },
       {
          "i": 7,
          "minutes": 420,
-         "rate": 0.675,
+         "rate": 0.66,
          "start": "07:00:00"
       },
       {
          "i": 8,
          "minutes": 480,
-         "rate": 0.774,
+         "rate": 0.724,
          "start": "08:00:00"
       },
       {
          "i": 9,
          "minutes": 540,
-         "rate": 0.766,
+         "rate": 0.719,
          "start": "09:00:00"
       },
       {
          "i": 10,
          "minutes": 600,
-         "rate": 0.76,
+         "rate": 0.715,
          "start": "10:00:00"
       },
       {
          "i": 11,
          "minutes": 660,
-         "rate": 0.737,
+         "rate": 0.7,
          "start": "11:00:00"
       },
       {
          "i": 12,
          "minutes": 720,
-         "rate": 0.715,
+         "rate": 0.686,
          "start": "12:00:00"
       },
       {
          "i": 13,
          "minutes": 780,
-         "rate": 0.715,
+         "rate": 0.686,
          "start": "13:00:00"
       },
       {
          "i": 14,
          "minutes": 840,
-         "rate": 0.714,
+         "rate": 0.685,
          "start": "14:00:00"
       },
       {
          "i": 15,
          "minutes": 900,
-         "rate": 0.697,
+         "rate": 0.674,
          "start": "15:00:00"
       },
       {
          "i": 16,
          "minutes": 960,
-         "rate": 0.714,
+         "rate": 0.685,
          "start": "16:00:00"
       },
       {
          "i": 17,
          "minutes": 1020,
-         "rate": 0.719,
+         "rate": 0.688,
          "start": "17:00:00"
       },
       {
          "i": 18,
          "minutes": 1080,
-         "rate": 0.727,
+         "rate": 0.693,
          "start": "18:00:00"
       },
       {
          "i": 19,
          "minutes": 1140,
-         "rate": 0.704,
+         "rate": 0.679,
          "start": "19:00:00"
       },
       {
          "i": 20,
          "minutes": 1200,
-         "rate": 0.696,
+         "rate": 0.674,
          "start": "20:00:00"
       },
       {
          "i": 21,
          "minutes": 1260,
-         "rate": 0.688,
+         "rate": 0.668,
          "start": "21:00:00"
       },
       {
          "i": 22,
          "minutes": 1320,
-         "rate": 0.639,
+         "rate": 0.637,
          "start": "22:00:00"
       },
       {
          "i": 23,
          "minutes": 1380,
-         "rate": 0.621,
+         "rate": 0.626,
          "start": "23:00:00"
       }
    ],
@@ -186,7 +186,7 @@
       "units": "grams"
    },
    "carbsReqThreshold": 1,
-   "csf": 11.953,
+   "csf": 13.039,
    "current_basal": 0.75,
    "current_basal_safety_multiplier": 4,
    "curve": "rapid-acting",
@@ -206,7 +206,7 @@
          {
             "i": 0,
             "offset": 0,
-            "sensitivity": 74.226,
+            "sensitivity": 77.128,
             "start": "00:00:00",
             "x": 0
          },
@@ -269,7 +269,7 @@
    "remainingCarbsFraction": 1,
    "resistance_lowers_target": false,
    "rewind_resets_autosens": false,
-   "sens": 74.226,
+   "sens": 77.128,
    "sensitivity_raises_target": true,
    "suspend_zeros_iob": true,
    "unsuspend_if_no_temp": false,
