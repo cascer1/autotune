@@ -10,145 +10,145 @@
       {
          "i": 0,
          "minutes": 0,
-         "rate": 0.529,
+         "rate": 0.533,
          "start": "00:00:00"
       },
       {
          "i": 1,
          "minutes": 60,
-         "rate": 0.576,
+         "rate": 0.54,
          "start": "01:00:00"
       },
       {
          "i": 2,
          "minutes": 120,
-         "rate": 0.503,
+         "rate": 0.519,
          "start": "02:00:00"
       },
       {
          "i": 3,
          "minutes": 180,
-         "rate": 0.544,
+         "rate": 0.519,
          "start": "03:00:00"
       },
       {
          "i": 4,
          "minutes": 240,
-         "rate": 0.588,
+         "rate": 0.547,
          "start": "04:00:00"
       },
       {
          "i": 5,
          "minutes": 300,
-         "rate": 0.611,
+         "rate": 0.618,
          "start": "05:00:00"
       },
       {
          "i": 6,
          "minutes": 360,
-         "rate": 0.644,
+         "rate": 0.639,
          "start": "06:00:00"
       },
       {
          "i": 7,
          "minutes": 420,
-         "rate": 0.66,
+         "rate": 0.649,
          "start": "07:00:00"
       },
       {
          "i": 8,
          "minutes": 480,
-         "rate": 0.724,
+         "rate": 0.73,
          "start": "08:00:00"
       },
       {
          "i": 9,
          "minutes": 540,
-         "rate": 0.719,
+         "rate": 0.725,
          "start": "09:00:00"
       },
       {
          "i": 10,
          "minutes": 600,
-         "rate": 0.715,
+         "rate": 0.721,
          "start": "10:00:00"
       },
       {
          "i": 11,
          "minutes": 660,
-         "rate": 0.7,
+         "rate": 0.691,
          "start": "11:00:00"
       },
       {
          "i": 12,
          "minutes": 720,
-         "rate": 0.686,
+         "rate": 0.682,
          "start": "12:00:00"
       },
       {
          "i": 13,
          "minutes": 780,
-         "rate": 0.686,
+         "rate": 0.682,
          "start": "13:00:00"
       },
       {
          "i": 14,
          "minutes": 840,
-         "rate": 0.685,
+         "rate": 0.681,
          "start": "14:00:00"
       },
       {
          "i": 15,
          "minutes": 900,
-         "rate": 0.674,
+         "rate": 0.675,
          "start": "15:00:00"
       },
       {
          "i": 16,
          "minutes": 960,
-         "rate": 0.685,
+         "rate": 0.681,
          "start": "16:00:00"
       },
       {
          "i": 17,
          "minutes": 1020,
-         "rate": 0.688,
+         "rate": 0.684,
          "start": "17:00:00"
       },
       {
          "i": 18,
          "minutes": 1080,
-         "rate": 0.693,
+         "rate": 0.687,
          "start": "18:00:00"
       },
       {
          "i": 19,
          "minutes": 1140,
-         "rate": 0.679,
+         "rate": 0.678,
          "start": "19:00:00"
       },
       {
          "i": 20,
          "minutes": 1200,
-         "rate": 0.674,
+         "rate": 0.675,
          "start": "20:00:00"
       },
       {
          "i": 21,
          "minutes": 1260,
-         "rate": 0.668,
+         "rate": 0.671,
          "start": "21:00:00"
       },
       {
          "i": 22,
          "minutes": 1320,
-         "rate": 0.637,
+         "rate": 0.651,
          "start": "22:00:00"
       },
       {
          "i": 23,
          "minutes": 1380,
-         "rate": 0.626,
+         "rate": 0.644,
          "start": "23:00:00"
       }
    ],
@@ -171,7 +171,7 @@
    },
    "bolus_increment": 0.1,
    "bolussnooze_dia_divisor": 2,
-   "carb_ratio": 5.434,
+   "carb_ratio": 5.681,
    "carb_ratios": {
       "first": 1,
       "schedule": [
@@ -186,7 +186,7 @@
       "units": "grams"
    },
    "carbsReqThreshold": 1,
-   "csf": 13.039,
+   "csf": 12.352,
    "current_basal": 0.75,
    "current_basal_safety_multiplier": 4,
    "curve": "rapid-acting",
@@ -206,7 +206,7 @@
          {
             "i": 0,
             "offset": 0,
-            "sensitivity": 77.128,
+            "sensitivity": 78.985,
             "start": "00:00:00",
             "x": 0
          },
@@ -269,7 +269,7 @@
    "remainingCarbsFraction": 1,
    "resistance_lowers_target": false,
    "rewind_resets_autosens": false,
-   "sens": 77.128,
+   "sens": 78.985,
    "sensitivity_raises_target": true,
    "suspend_zeros_iob": true,
    "unsuspend_if_no_temp": false,
