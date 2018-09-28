@@ -25,7 +25,7 @@
   "enableSMB_with_COB": true,
   "enableSMB_with_temptarget": true,
   "enableSMB_always": false,
-  "enableSMB_after_carbs": false,
+  "enableSMB_after_carbs": true,
   "allowSMB_with_high_temptarget": false,
   "maxSMBBasalMinutes": 30,
   "maxUAMSMBBasalMinutes": 30,
@@ -77,7 +77,7 @@
     ],
     "first": 2
   },
-  "sens": 43.199999999999996,
+  "sens": 46.800000000000004,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -94,7 +94,8 @@
         "x": 1,
         "sensitivity": 46.800000000000004,
         "offset": 240,
-        "start": "04:00:00"
+        "start": "04:00:00",
+        "endOffset": 300
       },
       {
         "i": 10,
@@ -108,8 +109,7 @@
         "x": 3,
         "sensitivity": 43.199999999999996,
         "offset": 540,
-        "start": "09:00:00",
-        "endOffset": 720
+        "start": "09:00:00"
       },
       {
         "i": 24,
