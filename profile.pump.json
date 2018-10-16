@@ -64,27 +64,25 @@
   "max_daily_basal": 0.8,
   "max_basal": 4,
   "out_units": "mmol/L",
-  "min_bg": 85,
-  "max_bg": 85,
+  "min_bg": 99,
+  "max_bg": 99,
   "bg_targets": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
     "targets": [
       {
         "i": 0,
-        "high": 85,
+        "high": 99,
         "start": "00:00:00",
-        "low": 85,
+        "low": 99,
         "offset": 0,
         "x": 0,
-        "temptargetSet": true,
-        "max_bg": 85,
-        "min_bg": 85
+        "max_bg": 99,
+        "min_bg": 99
       }
     ],
     "first": 2
   },
-  "temptargetSet": true,
   "sens": 57.6,
   "isfProfile": {
     "units": "mg/dL",
