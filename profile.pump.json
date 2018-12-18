@@ -40,34 +40,58 @@
   "suspend_zeros_iob": true,
   "dia": 5,
   "model": "554\n",
-  "current_basal": 0.7,
+  "current_basal": 0.75,
   "basalprofile": [
     {
       "i": 0,
       "start": "00:00:00",
       "minutes": 0,
-      "rate": 0.75
+      "rate": 0.6
     },
     {
       "i": 1,
-      "start": "02:00:00",
-      "minutes": 120,
-      "rate": 0.7
+      "start": "01:00:00",
+      "minutes": 60,
+      "rate": 0.65
     },
     {
       "i": 2,
-      "start": "05:00:00",
-      "minutes": 300,
-      "rate": 0.8
+      "start": "03:00:00",
+      "minutes": 180,
+      "rate": 0.75
     },
     {
       "i": 3,
+      "start": "05:00:00",
+      "minutes": 300,
+      "rate": 0.75
+    },
+    {
+      "i": 4,
       "start": "06:00:00",
       "minutes": 360,
-      "rate": 0.75
+      "rate": 0.725
+    },
+    {
+      "i": 5,
+      "start": "07:00:00",
+      "minutes": 420,
+      "rate": 0.7
+    },
+    {
+      "i": 6,
+      "start": "09:00:00",
+      "minutes": 540,
+      "rate": 0.65
+    },
+    {
+      "i": 7,
+      "start": "22:00:00",
+      "minutes": 1320,
+      "rate": 0.6
     }
   ],
-  "max_daily_basal": 0.8,
+  "max_daily_basal": 0.75,
   "max_basal": 4,
   "out_units": "mmol/L",
   "min_bg": 99,
@@ -140,7 +164,7 @@
     ],
     "first": 2
   },
-  "carb_ratio": 5.9,
+  "carb_ratio": 6.4,
   "carb_ratios": {
     "first": 1,
     "units": "grams",
@@ -150,7 +174,7 @@
         "i": 0,
         "start": "00:00:00",
         "offset": 0,
-        "ratio": 5.9
+        "ratio": 6.4
       }
     ]
   }
