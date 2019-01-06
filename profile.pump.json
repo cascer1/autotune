@@ -40,24 +40,24 @@
   "suspend_zeros_iob": true,
   "dia": 5,
   "model": "554\n",
-  "current_basal": 0.75,
+  "current_basal": 0.8,
   "basalprofile": [
     {
       "i": 0,
       "start": "00:00:00",
       "minutes": 0,
-      "rate": 0.6
+      "rate": 0.675
     },
     {
       "i": 1,
-      "start": "01:00:00",
-      "minutes": 60,
-      "rate": 0.65
+      "start": "02:00:00",
+      "minutes": 120,
+      "rate": 0.8
     },
     {
       "i": 2,
-      "start": "03:00:00",
-      "minutes": 180,
+      "start": "06:00:00",
+      "minutes": 360,
       "rate": 0.75
     },
     {
@@ -65,15 +65,9 @@
       "start": "09:00:00",
       "minutes": 540,
       "rate": 0.7
-    },
-    {
-      "i": 4,
-      "start": "22:00:00",
-      "minutes": 1320,
-      "rate": 0.65
     }
   ],
-  "max_daily_basal": 0.75,
+  "max_daily_basal": 0.8,
   "max_basal": 4,
   "out_units": "mmol/L",
   "min_bg": 99,
@@ -95,7 +89,7 @@
     ],
     "first": 2
   },
-  "sens": 57.6,
+  "sens": 46.800000000000004,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -105,15 +99,15 @@
         "x": 0,
         "sensitivity": 57.6,
         "offset": 0,
-        "start": "00:00:00",
-        "endOffset": 240
+        "start": "00:00:00"
       },
       {
         "i": 8,
         "x": 1,
         "sensitivity": 46.800000000000004,
         "offset": 240,
-        "start": "04:00:00"
+        "start": "04:00:00",
+        "endOffset": 300
       },
       {
         "i": 10,
