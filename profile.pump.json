@@ -89,7 +89,7 @@
     ],
     "first": 2
   },
-  "sens": 46.800000000000004,
+  "sens": 54,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -97,17 +97,17 @@
       {
         "i": 0,
         "x": 0,
-        "sensitivity": 57.6,
+        "sensitivity": 54,
         "offset": 0,
-        "start": "00:00:00"
+        "start": "00:00:00",
+        "endOffset": 240
       },
       {
         "i": 8,
         "x": 1,
         "sensitivity": 46.800000000000004,
         "offset": 240,
-        "start": "04:00:00",
-        "endOffset": 300
+        "start": "04:00:00"
       },
       {
         "i": 10,
@@ -119,7 +119,7 @@
       {
         "i": 18,
         "x": 3,
-        "sensitivity": 50.4,
+        "sensitivity": 45,
         "offset": 540,
         "start": "09:00:00"
       },
@@ -129,18 +129,11 @@
         "sensitivity": 54,
         "offset": 900,
         "start": "15:00:00"
-      },
-      {
-        "i": 10,
-        "x": 5,
-        "sensitivity": 57.6,
-        "offset": 300,
-        "start": "05:00:00"
       }
     ],
     "first": 2
   },
-  "carb_ratio": 6.4,
+  "carb_ratio": 6,
   "carb_ratios": {
     "first": 1,
     "units": "grams",
@@ -150,7 +143,21 @@
         "i": 0,
         "start": "00:00:00",
         "offset": 0,
-        "ratio": 6.4
+        "ratio": 6
+      },
+      {
+        "x": 1,
+        "i": 23,
+        "start": "11:30:00",
+        "offset": 690,
+        "ratio": 5
+      },
+      {
+        "x": 2,
+        "i": 30,
+        "start": "15:00:00",
+        "offset": 900,
+        "ratio": 6
       }
     ]
   }
