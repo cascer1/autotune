@@ -10,168 +10,168 @@
       {
          "i": 0,
          "minutes": 0,
-         "rate": 0.655,
+         "rate": 0.645,
          "start": "00:00:00",
          "untuned": 14
       },
       {
          "i": 1,
          "minutes": 60,
-         "rate": 0.695,
+         "rate": 0.698,
          "start": "01:00:00",
          "untuned": 9
       },
       {
          "i": 2,
          "minutes": 120,
-         "rate": 0.756,
+         "rate": 0.759,
          "start": "02:00:00",
          "untuned": 5
       },
       {
          "i": 3,
          "minutes": 180,
-         "rate": 0.85,
+         "rate": 0.842,
          "start": "03:00:00",
-         "untuned": 7
+         "untuned": 8
       },
       {
          "i": 4,
          "minutes": 240,
-         "rate": 0.875,
+         "rate": 0.861,
          "start": "04:00:00",
          "untuned": 7
       },
       {
          "i": 5,
          "minutes": 300,
-         "rate": 0.843,
+         "rate": 0.84,
          "start": "05:00:00",
-         "untuned": 11
+         "untuned": 12
       },
       {
          "i": 6,
          "minutes": 360,
-         "rate": 0.786,
+         "rate": 0.794,
          "start": "06:00:00",
-         "untuned": 21
+         "untuned": 22
       },
       {
          "i": 7,
          "minutes": 420,
-         "rate": 0.779,
+         "rate": 0.792,
          "start": "07:00:00",
          "untuned": 27
       },
       {
          "i": 8,
          "minutes": 480,
-         "rate": 0.75,
+         "rate": 0.751,
          "start": "08:00:00",
-         "untuned": 30
+         "untuned": 31
       },
       {
          "i": 9,
          "minutes": 540,
-         "rate": 0.743,
+         "rate": 0.746,
          "start": "09:00:00",
-         "untuned": 33
+         "untuned": 34
       },
       {
          "i": 10,
          "minutes": 600,
-         "rate": 0.732,
+         "rate": 0.737,
          "start": "10:00:00",
-         "untuned": 38
+         "untuned": 39
       },
       {
          "i": 11,
          "minutes": 660,
-         "rate": 0.731,
+         "rate": 0.736,
          "start": "11:00:00",
-         "untuned": 43
+         "untuned": 44
       },
       {
          "i": 12,
          "minutes": 720,
-         "rate": 0.731,
+         "rate": 0.736,
          "start": "12:00:00",
-         "untuned": 48
+         "untuned": 49
       },
       {
          "i": 13,
          "minutes": 780,
-         "rate": 0.727,
+         "rate": 0.733,
          "start": "13:00:00",
-         "untuned": 44
+         "untuned": 45
       },
       {
          "i": 14,
          "minutes": 840,
-         "rate": 0.727,
+         "rate": 0.733,
          "start": "14:00:00",
-         "untuned": 41
+         "untuned": 42
       },
       {
          "i": 15,
          "minutes": 900,
-         "rate": 0.727,
+         "rate": 0.72,
          "start": "15:00:00",
          "untuned": 41
       },
       {
          "i": 16,
          "minutes": 960,
-         "rate": 0.714,
+         "rate": 0.707,
          "start": "16:00:00",
          "untuned": 42
       },
       {
          "i": 17,
          "minutes": 1020,
-         "rate": 0.714,
+         "rate": 0.707,
          "start": "17:00:00",
          "untuned": 46
       },
       {
          "i": 18,
          "minutes": 1080,
-         "rate": 0.712,
+         "rate": 0.709,
          "start": "18:00:00",
-         "untuned": 44
+         "untuned": 45
       },
       {
          "i": 19,
          "minutes": 1140,
-         "rate": 0.713,
+         "rate": 0.71,
          "start": "19:00:00",
-         "untuned": 42
+         "untuned": 43
       },
       {
          "i": 20,
          "minutes": 1200,
          "rate": 0.698,
          "start": "20:00:00",
-         "untuned": 39
+         "untuned": 40
       },
       {
          "i": 21,
          "minutes": 1260,
-         "rate": 0.715,
+         "rate": 0.691,
          "start": "21:00:00",
          "untuned": 31
       },
       {
          "i": 22,
          "minutes": 1320,
-         "rate": 0.681,
+         "rate": 0.645,
          "start": "22:00:00",
          "untuned": 22
       },
       {
          "i": 23,
          "minutes": 1380,
-         "rate": 0.706,
+         "rate": 0.668,
          "start": "23:00:00",
          "untuned": 22
       }
@@ -195,7 +195,7 @@
    },
    "bolus_increment": 0.1,
    "bolussnooze_dia_divisor": 2,
-   "carb_ratio": 5.938,
+   "carb_ratio": 5.701,
    "carb_ratios": {
       "first": 1,
       "schedule": [
@@ -210,7 +210,7 @@
       "units": "grams"
    },
    "carbsReqThreshold": 1,
-   "csf": 9.131,
+   "csf": 10.12,
    "current_basal": 0.7,
    "current_basal_safety_multiplier": 4,
    "curve": "ultra-rapid",
@@ -231,7 +231,7 @@
             "endOffset": 240,
             "i": 0,
             "offset": 0,
-            "sensitivity": 59.703,
+            "sensitivity": 63.191,
             "start": "00:00:00",
             "x": 0
          },
@@ -293,7 +293,7 @@
    "remainingCarbsFraction": 1,
    "resistance_lowers_target": false,
    "rewind_resets_autosens": false,
-   "sens": 59.703,
+   "sens": 63.191,
    "sensitivity_raises_target": true,
    "suspend_zeros_iob": true,
    "unsuspend_if_no_temp": false,
