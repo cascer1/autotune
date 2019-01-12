@@ -89,7 +89,7 @@
     ],
     "first": 2
   },
-  "sens": 46.800000000000004,
+  "sens": 54,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -99,15 +99,15 @@
         "x": 0,
         "sensitivity": 54,
         "offset": 0,
-        "start": "00:00:00"
+        "start": "00:00:00",
+        "endOffset": 240
       },
       {
         "i": 8,
         "x": 1,
         "sensitivity": 46.800000000000004,
         "offset": 240,
-        "start": "04:00:00",
-        "endOffset": 300
+        "start": "04:00:00"
       },
       {
         "i": 10,
