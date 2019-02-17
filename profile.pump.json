@@ -4,13 +4,13 @@
   "current_basal_safety_multiplier": 4,
   "autosens_max": 1.2,
   "autosens_min": 0.7,
-  "rewind_resets_autosens": true,
+  "rewind_resets_autosens": false,
   "high_temptarget_raises_sensitivity": false,
   "low_temptarget_lowers_sensitivity": false,
   "sensitivity_raises_target": true,
   "resistance_lowers_target": false,
   "adv_target_adjustments": false,
-  "exercise_mode": false,
+  "exercise_mode": true,
   "half_basal_exercise_target": 160,
   "maxCOB": 120,
   "wide_bg_target_range": false,
@@ -22,16 +22,16 @@
   "remainingCarbsCap": 90,
   "enableUAM": true,
   "A52_risk_enable": false,
-  "enableSMB_with_COB": false,
-  "enableSMB_with_temptarget": false,
+  "enableSMB_with_COB": true,
+  "enableSMB_with_temptarget": true,
   "enableSMB_always": false,
-  "enableSMB_after_carbs": false,
+  "enableSMB_after_carbs": true,
   "allowSMB_with_high_temptarget": false,
   "maxSMBBasalMinutes": 30,
   "maxUAMSMBBasalMinutes": 30,
   "SMBInterval": 3,
   "bolus_increment": 0.1,
-  "curve": "rapid-acting",
+  "curve": "ultra-rapid",
   "useCustomPeakTime": false,
   "insulinPeakTime": 75,
   "carbsReqThreshold": 1,
@@ -109,7 +109,7 @@
     ],
     "first": 2
   },
-  "sens": 54,
+  "sens": 39.6,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -126,7 +126,8 @@
         "x": 1,
         "sensitivity": 39.6,
         "offset": 240,
-        "start": "04:00:00"
+        "start": "04:00:00",
+        "endOffset": 540
       },
       {
         "i": 18,
@@ -147,8 +148,7 @@
         "x": 4,
         "sensitivity": 54,
         "offset": 180,
-        "start": "03:00:00",
-        "endOffset": 240
+        "start": "03:00:00"
       }
     ],
     "first": 2
