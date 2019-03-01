@@ -1,28 +1,28 @@
-  05:00        |             | 0.765       | 2           
-  06:00        |             | 0.788       | 3           
-  07:00        |             | 0.781       | 5           
-  08:00        | 0.750       | 0.764       | 7           
-  09:00        |             | 0.756       | 9           
-  10:00        |             | 0.753       | 11          
-  11:00        |             | 0.753       | 11          
-  12:00        |             | 0.753       | 11          
-  13:00        |             | 0.742       | 10          
-  14:00        |             | 0.737       | 9           
-  15:00        |             | 0.737       | 9           
-  16:00        |             | 0.746       | 10          
-  17:00        |             | 0.747       | 11          
-  18:00        |             | 0.747       | 11          
-  19:00        |             | 0.747       | 10          
-  20:00        |             | 0.742       | 9           
-  21:00        | 0.700       | 0.726       | 7           
-  22:00        |             | 0.738       | 5           
-  23:00        |             | 0.729       | 3           
-=== Running Autotune at Wed 27 Feb 04:05:02 CET 2019 === 
-Option true unknown
-Unknown options. Exiting
-=== Running Autotune at Thu 28 Feb 04:05:03 CET 2019 === 
-Option true unknown
-Unknown options. Exiting
-=== Running Autotune at Fri  1 Mar 04:05:02 CET 2019 === 
-Option true unknown
-Unknown options. Exiting
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.1 BGI: 1.1 IOB: -0.7 at 01:42:58 dev: -2.90 avgDelta: -1.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.1 BGI: 1.3 IOB: -0.7 at 01:47:57 dev: -3.82 avgDelta: -2.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.1 BGI: 1.5 IOB: -0.7 at 01:52:57 dev: -4.25 avgDelta: -2.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.1 BGI: 1.7 IOB: -0.8 at 01:57:57 dev: -4.17 avgDelta: -2.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 1.8 IOB: -0.8 at 02:02:57 dev: -3.04 avgDelta: -1.25 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 1.9 IOB: -0.8 at 02:07:57 dev: -2.18 avgDelta: -0.25 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.0 IOB: -0.9 at 02:12:57 dev: -2.04 avgDelta: 0.00 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.2 IOB: -0.9 at 02:17:57 dev: -1.91 avgDelta: 0.25 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.3 IOB: -0.9 at 02:22:57 dev: -2.28 avgDelta: 0.00 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.3 IOB: -0.9 at 02:27:57 dev: -2.08 avgDelta: 0.25 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.4 IOB: -0.8 at 02:32:57 dev: -1.89 avgDelta: 0.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.4 IOB: -0.8 at 02:37:57 dev: -2.17 avgDelta: 0.25 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.5 IOB: -0.8 at 02:42:57 dev: -2.95 avgDelta: -0.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.5 IOB: -0.9 at 02:47:57 dev: -2.48 avgDelta: 0.00 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.5 IOB: -0.9 at 02:52:57 dev: -2.26 avgDelta: 0.25 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.8 BGI: 2.6 IOB: -0.9 at 02:57:57 dev: -1.81 avgDelta: 0.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.5 IOB: -0.9 at 03:02:57 dev: -0.46 avgDelta: 2.00 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.5 IOB: -0.9 at 03:07:57 dev: -0.73 avgDelta: 1.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.5 IOB: -0.9 at 03:12:57 dev: -1.54 avgDelta: 1.00 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.6 IOB: -0.9 at 03:17:56 dev: -1.09 avgDelta: 1.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.6 IOB: -0.9 at 03:22:57 dev: -0.84 avgDelta: 1.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.6 IOB: -0.8 at 03:27:56 dev: -0.84 avgDelta: 1.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.5 IOB: -0.8 at 03:32:57 dev: -0.54 avgDelta: 2.00 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.5 IOB: -0.7 at 03:37:56 dev: -1.01 avgDelta: 1.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.5 IOB: -0.7 at 03:42:57 dev: -1.73 avgDelta: 0.75 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.4 IOB: -0.8 at 03:47:57 dev: -1.93 avgDelta: 0.50 basal
+0 mealCOB: 0.0 mealCarbs: 0 basalBGI: 3.6 BGI: 2.4 IOB: -0.7 at 03:52:57 dev: -2.40 avgDelta: 0.00 basal
+oref0-autotune-core autotune.2019-02-28.json profile.json profile.pump.json > newprofile.2019-02-28.json

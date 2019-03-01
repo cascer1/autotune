@@ -16,16 +16,16 @@
   "wide_bg_target_range": false,
   "unsuspend_if_no_temp": false,
   "bolussnooze_dia_divisor": 2,
-  "min_5m_carbimpact": 8,
+  "min_5m_carbimpact": 11,
   "autotune_isf_adjustmentFraction": 1,
   "remainingCarbsFraction": 1,
   "remainingCarbsCap": 90,
   "enableUAM": true,
   "A52_risk_enable": false,
-  "enableSMB_with_COB": true,
+  "enableSMB_with_COB": false,
   "enableSMB_with_temptarget": true,
   "enableSMB_always": false,
-  "enableSMB_after_carbs": true,
+  "enableSMB_after_carbs": false,
   "allowSMB_with_high_temptarget": false,
   "maxSMBBasalMinutes": 30,
   "maxUAMSMBBasalMinutes": 30,
@@ -70,46 +70,26 @@
   "max_daily_basal": 0.8,
   "max_basal": 4,
   "out_units": "mmol/L",
-  "min_bg": 90,
-  "max_bg": 90,
+  "min_bg": 99,
+  "max_bg": 99,
   "bg_targets": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
     "targets": [
       {
         "i": 0,
-        "high": 90,
+        "high": 99,
         "start": "00:00:00",
-        "low": 90,
+        "low": 99,
         "offset": 0,
         "x": 0,
-        "max_bg": 90,
-        "min_bg": 90
-      },
-      {
-        "i": 29,
-        "high": 99,
-        "start": "14:30:00",
-        "low": 99,
-        "offset": 870,
-        "x": 1,
-        "min_bg": null,
-        "max_bg": null
-      },
-      {
-        "i": 35,
-        "high": 90,
-        "start": "17:30:00",
-        "low": 90,
-        "offset": 1050,
-        "x": 2,
-        "min_bg": null,
-        "max_bg": null
+        "max_bg": 99,
+        "min_bg": 99
       }
     ],
     "first": 2
   },
-  "sens": 57.6,
+  "sens": 39.6,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -119,13 +99,41 @@
         "x": 0,
         "sensitivity": 57.6,
         "offset": 0,
-        "start": "00:00:00",
-        "endOffset": 1440
+        "start": "00:00:00"
+      },
+      {
+        "i": 8,
+        "x": 1,
+        "sensitivity": 39.6,
+        "offset": 240,
+        "start": "04:00:00",
+        "endOffset": 540
+      },
+      {
+        "i": 18,
+        "x": 2,
+        "sensitivity": 45,
+        "offset": 540,
+        "start": "09:00:00"
+      },
+      {
+        "i": 30,
+        "x": 3,
+        "sensitivity": 57.6,
+        "offset": 900,
+        "start": "15:00:00"
+      },
+      {
+        "i": 6,
+        "x": 4,
+        "sensitivity": 54,
+        "offset": 180,
+        "start": "03:00:00"
       }
     ],
     "first": 2
   },
-  "carb_ratio": 5.2,
+  "carb_ratio": 5.5,
   "carb_ratios": {
     "first": 1,
     "units": "grams",
@@ -135,7 +143,7 @@
         "i": 0,
         "start": "00:00:00",
         "offset": 0,
-        "ratio": 5.2
+        "ratio": 5.5
       }
     ]
   }
