@@ -1,150 +1,282 @@
 {
-  "max_iob": 9,
-  "max_daily_safety_multiplier": 3,
-  "current_basal_safety_multiplier": 4,
-  "autosens_max": 1.2,
-  "autosens_min": 0.7,
-  "rewind_resets_autosens": false,
-  "high_temptarget_raises_sensitivity": false,
-  "low_temptarget_lowers_sensitivity": false,
-  "sensitivity_raises_target": true,
-  "resistance_lowers_target": false,
-  "adv_target_adjustments": false,
-  "exercise_mode": true,
-  "half_basal_exercise_target": 160,
-  "maxCOB": 120,
-  "wide_bg_target_range": false,
-  "unsuspend_if_no_temp": false,
-  "bolussnooze_dia_divisor": 2,
-  "min_5m_carbimpact": 11,
-  "autotune_isf_adjustmentFraction": 1,
-  "remainingCarbsFraction": 1,
-  "remainingCarbsCap": 90,
-  "enableUAM": true,
-  "A52_risk_enable": false,
-  "enableSMB_with_COB": false,
-  "enableSMB_with_temptarget": true,
-  "enableSMB_always": false,
-  "enableSMB_after_carbs": false,
-  "allowSMB_with_high_temptarget": false,
-  "maxSMBBasalMinutes": 30,
-  "maxUAMSMBBasalMinutes": 30,
-  "SMBInterval": 3,
-  "bolus_increment": 0.1,
-  "curve": "ultra-rapid",
-  "useCustomPeakTime": false,
-  "insulinPeakTime": 75,
-  "carbsReqThreshold": 1,
-  "offline_hotspot": false,
-  "noisyCGMTargetMultiplier": 1.3,
-  "suspend_zeros_iob": true,
-  "dia": 5,
-  "model": "554\n",
-  "current_basal": 0.8,
-  "basalprofile": [
-    {
-      "i": 0,
-      "start": "00:00:00",
-      "minutes": 0,
-      "rate": 0.65
-    },
-    {
-      "i": 1,
-      "start": "02:00:00",
-      "minutes": 120,
-      "rate": 0.8
-    },
-    {
-      "i": 2,
-      "start": "08:00:00",
-      "minutes": 480,
-      "rate": 0.75
-    },
-    {
-      "i": 3,
-      "start": "21:00:00",
-      "minutes": 1260,
-      "rate": 0.7
-    }
-  ],
-  "max_daily_basal": 0.8,
-  "max_basal": 4,
-  "out_units": "mmol/L",
-  "min_bg": 99,
-  "max_bg": 99,
-  "bg_targets": {
-    "units": "mg/dL",
-    "user_preferred_units": "mmol/L",
-    "targets": [
+   "A52_risk_enable": false,
+   "SMBInterval": 3,
+   "adv_target_adjustments": false,
+   "allowSMB_with_high_temptarget": false,
+   "autosens_max": 1.2,
+   "autosens_min": 0.7,
+   "autotune_isf_adjustmentFraction": 1,
+   "basalprofile": [
       {
-        "i": 0,
-        "high": 99,
-        "start": "00:00:00",
-        "low": 99,
-        "offset": 0,
-        "x": 0,
-        "max_bg": 99,
-        "min_bg": 99
+         "i": 0,
+         "minutes": 0,
+         "rate": 0.587,
+         "start": "00:00:00"
+      },
+      {
+         "i": 1,
+         "minutes": 60,
+         "rate": 0.594,
+         "start": "01:00:00"
+      },
+      {
+         "i": 2,
+         "minutes": 120,
+         "rate": 0.763,
+         "start": "02:00:00"
+      },
+      {
+         "i": 3,
+         "minutes": 180,
+         "rate": 0.772,
+         "start": "03:00:00"
+      },
+      {
+         "i": 4,
+         "minutes": 240,
+         "rate": 0.798,
+         "start": "04:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 5,
+         "minutes": 300,
+         "rate": 0.803,
+         "start": "05:00:00"
+      },
+      {
+         "i": 6,
+         "minutes": 360,
+         "rate": 0.813,
+         "start": "06:00:00"
+      },
+      {
+         "i": 7,
+         "minutes": 420,
+         "rate": 0.794,
+         "start": "07:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 8,
+         "minutes": 480,
+         "rate": 0.754,
+         "start": "08:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 9,
+         "minutes": 540,
+         "rate": 0.754,
+         "start": "09:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 10,
+         "minutes": 600,
+         "rate": 0.754,
+         "start": "10:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 11,
+         "minutes": 660,
+         "rate": 0.754,
+         "start": "11:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 12,
+         "minutes": 720,
+         "rate": 0.723,
+         "start": "12:00:00"
+      },
+      {
+         "i": 13,
+         "minutes": 780,
+         "rate": 0.687,
+         "start": "13:00:00"
+      },
+      {
+         "i": 14,
+         "minutes": 840,
+         "rate": 0.645,
+         "start": "14:00:00"
+      },
+      {
+         "i": 15,
+         "minutes": 900,
+         "rate": 0.669,
+         "start": "15:00:00"
+      },
+      {
+         "i": 16,
+         "minutes": 960,
+         "rate": 0.705,
+         "start": "16:00:00"
+      },
+      {
+         "i": 17,
+         "minutes": 1020,
+         "rate": 0.739,
+         "start": "17:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 18,
+         "minutes": 1080,
+         "rate": 0.739,
+         "start": "18:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 19,
+         "minutes": 1140,
+         "rate": 0.739,
+         "start": "19:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 20,
+         "minutes": 1200,
+         "rate": 0.739,
+         "start": "20:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 21,
+         "minutes": 1260,
+         "rate": 0.698,
+         "start": "21:00:00",
+         "untuned": 1
+      },
+      {
+         "i": 22,
+         "minutes": 1320,
+         "rate": 0.68,
+         "start": "22:00:00"
+      },
+      {
+         "i": 23,
+         "minutes": 1380,
+         "rate": 0.649,
+         "start": "23:00:00"
       }
-    ],
-    "first": 2
-  },
-  "sens": 39.6,
-  "isfProfile": {
-    "units": "mg/dL",
-    "user_preferred_units": "mmol/L",
-    "sensitivities": [
-      {
-        "i": 0,
-        "x": 0,
-        "sensitivity": 57.6,
-        "offset": 0,
-        "start": "00:00:00"
-      },
-      {
-        "i": 8,
-        "x": 1,
-        "sensitivity": 39.6,
-        "offset": 240,
-        "start": "04:00:00",
-        "endOffset": 540
-      },
-      {
-        "i": 18,
-        "x": 2,
-        "sensitivity": 45,
-        "offset": 540,
-        "start": "09:00:00"
-      },
-      {
-        "i": 30,
-        "x": 3,
-        "sensitivity": 57.6,
-        "offset": 900,
-        "start": "15:00:00"
-      },
-      {
-        "i": 6,
-        "x": 4,
-        "sensitivity": 54,
-        "offset": 180,
-        "start": "03:00:00"
-      }
-    ],
-    "first": 2
-  },
-  "carb_ratio": 5.5,
-  "carb_ratios": {
-    "first": 1,
-    "units": "grams",
-    "schedule": [
-      {
-        "x": 0,
-        "i": 0,
-        "start": "00:00:00",
-        "offset": 0,
-        "ratio": 5.5
-      }
-    ]
-  }
+   ],
+   "bg_targets": {
+      "first": 2,
+      "targets": [
+         {
+            "high": 99,
+            "i": 0,
+            "low": 99,
+            "max_bg": 99,
+            "min_bg": 99,
+            "offset": 0,
+            "start": "00:00:00",
+            "x": 0
+         }
+      ],
+      "units": "mg/dL",
+      "user_preferred_units": "mmol/L"
+   },
+   "bolus_increment": 0.1,
+   "bolussnooze_dia_divisor": 2,
+   "carb_ratio": 5.457,
+   "carb_ratios": {
+      "first": 1,
+      "schedule": [
+         {
+            "i": 0,
+            "offset": 0,
+            "ratio": 5.5,
+            "start": "00:00:00",
+            "x": 0
+         }
+      ],
+      "units": "grams"
+   },
+   "carbsReqThreshold": 1,
+   "csf": 10.126,
+   "current_basal": 0.8,
+   "current_basal_safety_multiplier": 4,
+   "curve": "ultra-rapid",
+   "dia": 5,
+   "enableSMB_after_carbs": false,
+   "enableSMB_always": false,
+   "enableSMB_with_COB": false,
+   "enableSMB_with_temptarget": true,
+   "enableUAM": true,
+   "exercise_mode": true,
+   "half_basal_exercise_target": 160,
+   "high_temptarget_raises_sensitivity": false,
+   "insulinPeakTime": 55,
+   "isfProfile": {
+      "first": 2,
+      "sensitivities": [
+         {
+            "i": 0,
+            "offset": 0,
+            "sensitivity": 61.551,
+            "start": "00:00:00",
+            "x": 0
+         },
+         {
+            "endOffset": 540,
+            "i": 8,
+            "offset": 240,
+            "sensitivity": 39.6,
+            "start": "04:00:00",
+            "x": 1
+         },
+         {
+            "i": 18,
+            "offset": 540,
+            "sensitivity": 45,
+            "start": "09:00:00",
+            "x": 2
+         },
+         {
+            "i": 30,
+            "offset": 900,
+            "sensitivity": 57.6,
+            "start": "15:00:00",
+            "x": 3
+         },
+         {
+            "i": 6,
+            "offset": 180,
+            "sensitivity": 54,
+            "start": "03:00:00",
+            "x": 4
+         }
+      ],
+      "units": "mg/dL",
+      "user_preferred_units": "mmol/L"
+   },
+   "low_temptarget_lowers_sensitivity": false,
+   "maxCOB": 120,
+   "maxSMBBasalMinutes": 30,
+   "maxUAMSMBBasalMinutes": 30,
+   "max_basal": 4,
+   "max_bg": 99,
+   "max_daily_basal": 0.8,
+   "max_daily_safety_multiplier": 3,
+   "max_iob": 9,
+   "min_5m_carbimpact": 11,
+   "min_bg": 99,
+   "model": "554\n",
+   "noisyCGMTargetMultiplier": 1.3,
+   "offline_hotspot": false,
+   "out_units": "mmol/L",
+   "remainingCarbsCap": 90,
+   "remainingCarbsFraction": 1,
+   "resistance_lowers_target": false,
+   "rewind_resets_autosens": false,
+   "sens": 61.551,
+   "sensitivity_raises_target": true,
+   "suspend_zeros_iob": true,
+   "unsuspend_if_no_temp": false,
+   "useCustomPeakTime": false,
+   "wide_bg_target_range": false
 }
