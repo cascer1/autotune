@@ -70,22 +70,22 @@
   "max_daily_basal": 0.8,
   "max_basal": 4,
   "out_units": "mmol/L",
-  "min_bg": 81,
-  "max_bg": 81,
+  "min_bg": 90,
+  "max_bg": 90,
   "bg_targets": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
     "targets": [
       {
         "i": 0,
-        "high": 81,
+        "high": 90,
         "start": "00:00:00",
-        "low": 81,
+        "low": 90,
         "offset": 0,
         "x": 0,
         "temptargetSet": true,
-        "max_bg": 81,
-        "min_bg": 81
+        "max_bg": 90,
+        "min_bg": 90
       }
     ],
     "first": 2
