@@ -16,7 +16,7 @@
   "wide_bg_target_range": false,
   "unsuspend_if_no_temp": false,
   "bolussnooze_dia_divisor": 2,
-  "min_5m_carbimpact": 13,
+  "min_5m_carbimpact": 12,
   "autotune_isf_adjustmentFraction": 1,
   "remainingCarbsFraction": 1,
   "remainingCarbsCap": 90,
@@ -70,25 +70,27 @@
   "max_daily_basal": 0.8,
   "max_basal": 4,
   "out_units": "mmol/L",
-  "min_bg": 99,
-  "max_bg": 99,
+  "min_bg": 90,
+  "max_bg": 90,
   "bg_targets": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
     "targets": [
       {
         "i": 0,
-        "high": 99,
+        "high": 90,
         "start": "00:00:00",
-        "low": 99,
+        "low": 90,
         "offset": 0,
         "x": 0,
-        "max_bg": 99,
-        "min_bg": 99
+        "temptargetSet": true,
+        "max_bg": 90,
+        "min_bg": 90
       }
     ],
     "first": 2
   },
+  "temptargetSet": true,
   "sens": 54,
   "isfProfile": {
     "units": "mg/dL",
