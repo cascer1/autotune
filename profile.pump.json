@@ -135,7 +135,7 @@
     ],
     "first": 2
   },
-  "carb_ratio": 6,
+  "carb_ratio": 5.5,
   "carb_ratios": {
     "first": 1,
     "units": "grams",
@@ -145,7 +145,7 @@
         "i": 0,
         "start": "00:00:00",
         "offset": 0,
-        "ratio": 6
+        "ratio": 5.5
       }
     ]
   }
