@@ -16,7 +16,7 @@
   "wide_bg_target_range": false,
   "unsuspend_if_no_temp": false,
   "bolussnooze_dia_divisor": 2,
-  "min_5m_carbimpact": 12,
+  "min_5m_carbimpact": 11,
   "autotune_isf_adjustmentFraction": 1,
   "remainingCarbsFraction": 1,
   "remainingCarbsCap": 90,
@@ -89,7 +89,7 @@
     ],
     "first": 2
   },
-  "sens": 54,
+  "sens": 39.6,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -106,7 +106,8 @@
         "x": 1,
         "sensitivity": 39.6,
         "offset": 240,
-        "start": "04:00:00"
+        "start": "04:00:00",
+        "endOffset": 540
       },
       {
         "i": 18,
@@ -127,8 +128,7 @@
         "x": 4,
         "sensitivity": 54,
         "offset": 180,
-        "start": "03:00:00",
-        "endOffset": 240
+        "start": "03:00:00"
       }
     ],
     "first": 2
