@@ -40,7 +40,7 @@
   "suspend_zeros_iob": true,
   "dia": 5,
   "model": "554\n",
-  "current_basal": 0.65,
+  "current_basal": 0.8,
   "basalprofile": [
     {
       "i": 0,
@@ -119,8 +119,7 @@
         "x": 0,
         "sensitivity": 61.199999999999996,
         "offset": 0,
-        "start": "00:00:00",
-        "endOffset": 180
+        "start": "00:00:00"
       },
       {
         "i": 8,
@@ -148,7 +147,8 @@
         "x": 4,
         "sensitivity": 61.199999999999996,
         "offset": 180,
-        "start": "03:00:00"
+        "start": "03:00:00",
+        "endOffset": 240
       }
     ],
     "first": 2
