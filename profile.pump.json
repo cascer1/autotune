@@ -119,7 +119,8 @@
         "x": 0,
         "sensitivity": 61.199999999999996,
         "offset": 0,
-        "start": "00:00:00"
+        "start": "00:00:00",
+        "endOffset": 180
       },
       {
         "i": 8,
@@ -147,8 +148,7 @@
         "x": 4,
         "sensitivity": 61.199999999999996,
         "offset": 180,
-        "start": "03:00:00",
-        "endOffset": 240
+        "start": "03:00:00"
       }
     ],
     "first": 2
