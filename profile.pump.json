@@ -70,22 +70,21 @@
   "max_daily_basal": 0.8,
   "max_basal": 4,
   "out_units": "mmol/L",
-  "min_bg": 117,
-  "max_bg": 144,
+  "min_bg": 90,
+  "max_bg": 90,
   "bg_targets": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
     "targets": [
       {
         "i": 0,
-        "high": 144,
+        "high": 90,
         "start": "00:00:00",
-        "low": 117,
+        "low": 90,
         "offset": 0,
         "x": 0,
-        "temptargetSet": true,
-        "max_bg": 144,
-        "min_bg": 117
+        "max_bg": 90,
+        "min_bg": 90
       },
       {
         "i": 31,
@@ -110,8 +109,7 @@
     ],
     "first": 2
   },
-  "temptargetSet": true,
-  "sens": 39.6,
+  "sens": 61.199999999999996,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -128,8 +126,7 @@
         "x": 1,
         "sensitivity": 39.6,
         "offset": 240,
-        "start": "04:00:00",
-        "endOffset": 540
+        "start": "04:00:00"
       },
       {
         "i": 18,
@@ -150,7 +147,8 @@
         "x": 4,
         "sensitivity": 61.199999999999996,
         "offset": 180,
-        "start": "03:00:00"
+        "start": "03:00:00",
+        "endOffset": 240
       }
     ],
     "first": 2
