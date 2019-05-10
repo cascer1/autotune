@@ -1,6 +1,6 @@
 {
   "max_iob": 9,
-  "max_daily_safety_multiplier": 3,
+  "max_daily_safety_multiplier": 4,
   "current_basal_safety_multiplier": 4,
   "autosens_max": 1.2,
   "autosens_min": 0.7,
@@ -91,7 +91,7 @@
     ],
     "first": 2
   },
-  "sens": 61.199999999999996,
+  "sens": 39.6,
   "isfProfile": {
     "units": "mg/dL",
     "user_preferred_units": "mmol/L",
@@ -108,7 +108,8 @@
         "x": 1,
         "sensitivity": 39.6,
         "offset": 240,
-        "start": "04:00:00"
+        "start": "04:00:00",
+        "endOffset": 540
       },
       {
         "i": 18,
@@ -129,8 +130,7 @@
         "x": 4,
         "sensitivity": 61.199999999999996,
         "offset": 180,
-        "start": "03:00:00",
-        "endOffset": 240
+        "start": "03:00:00"
       }
     ],
     "first": 2
